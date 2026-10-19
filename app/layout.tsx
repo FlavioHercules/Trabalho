@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'FinanCia — Clareza sobre seu dinheiro',
-  description: 'Organize suas finanças pessoais, acompanhe metas e tome decisões melhores.',
+  title: 'Primos & RSA — Demonstração de criptografia',
+  description: 'Uma demonstração educativa de como números primos são usados na criptografia RSA.',
   generator: 'v0.app',
   icons: {
     icon: [
