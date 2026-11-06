@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Configuracoes from '@/components/Configuracoes'
 import Dashboard, { type DashboardPage } from '@/components/Dashboard'
-import Inteligencia from '@/components/Inteligencia'
+import Consultoria from '@/components/Consultoria'
 import Irrigacao from '@/components/Irrigacao'
 import Login from '@/components/Login'
 import Notificacoes from '@/components/Notificacoes'
@@ -30,8 +30,8 @@ export default function Page() {
         return <Sensores />
       case 'Irrigação':
         return <Irrigacao />
-      case 'Inteligência':
-        return <Inteligencia />
+      case 'Consultoria':
+        return <Consultoria />
       case 'Relatórios':
         return <Relatorios />
       case 'Notificações':

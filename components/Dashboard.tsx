@@ -3,7 +3,7 @@ import React from "react";
 import {
   Activity,
   Bell,
-  BrainCircuit,
+  Headphones,
   LayoutDashboard,
   LogIn,
   Sprout,
@@ -18,7 +18,7 @@ export type DashboardPage =
   | "Talhões"
   | "Sensores"
   | "Irrigação"
-  | "Inteligência"
+  | "Consultoria"
   | "Relatórios"
   | "Notificações"
   | "Configurações";
@@ -59,7 +59,7 @@ const menu: { icon: LucideIcon; name: DashboardPage }[] = [
   { icon: Sprout, name: "Talhões" },
   { icon: Activity, name: "Sensores" },
   { icon: Droplets, name: "Irrigação" },
-  { icon: BrainCircuit, name: "Inteligência" },
+  { icon: Headphones, name: "Consultoria" },
   { icon: BarChart3, name: "Relatórios" },
   { icon: Bell, name: "Notificações" },
   { icon: Settings, name: "Configurações" },
@@ -70,7 +70,7 @@ const pageTitles: Record<DashboardPage, string> = {
   "Talhões": "Talhões",
   Sensores: "Sensores",
   "Irrigação": "Irrigação",
-  "Inteligência": "Inteligência agrícola",
+  Consultoria: "Consultoria",
   Relatórios: "Relatórios",
   Notificações: "Notificações",
   Configurações: "Configurações",
